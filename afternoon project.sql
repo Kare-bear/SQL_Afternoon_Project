@@ -1,3 +1,4 @@
+/*PEOPLE*/
 /*  CREATE TABLE Person ( ID INTEGER PRIMARY KEY AUTOINCREMENT, 
                     Name varchar, 
                     Age integer, 
@@ -48,3 +49,33 @@ where FavoriteColor
 in ('yellow', 'Purple'); */
 
 /* All Done */
+
+
+
+/* ORDERS */
+
+/* create table Orders
+(PersonID integer primary key autoincrement, 
+ ProductName varchar, 
+ ProductPrice float, 
+ Quantity integer);
+ */
+ 
+/* insert into Orders(ProductName, ProductPrice, Quantity)
+values('Windex', 2.99, 5),
+('Turkey', 5.99, 2), 
+('Ziplock Baggies', 1.99, 45); */
+
+/* select * from Orders; */
+
+/* select SUM(Quantity) from Orders;  */
+
+/* select SUM(ProductPrice*Quantity) from Orders; */
+
+/* select SUM(ProductPrice*Quantity) from Orders where PersonID = 1; */
+
+/* Done */
+
+
+/*ARTIST*/
+

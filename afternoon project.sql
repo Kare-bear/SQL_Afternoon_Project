@@ -79,3 +79,53 @@ values('Windex', 2.99, 5),
 
 /*ARTIST*/
 
+/* insert into Artist(Name)
+values('Devest8'),('Ziggy Stardust'),('Lucy Diamonds'); */
+
+/* select * from Artist order by Name desc Limit 10; */
+
+/* select * from Artist order by Name limit 5; */
+
+/* select * from Artist where Name like 'Black%'; */
+
+/* select * from Artist where Name like '%Black%'; */
+
+/* Done */
+
+
+/* Employee */
+
+/* select FirstName, LastName from Employee where City = 'Calgary'; */
+
+/* select  FirstName, LastName, Max(BirthDate) from Employee; */
+
+/* select FirstName, LastName, Min(BirthDate) from Employee; */
+
+/* select EmployeeId from Employee where FirstName='Nancy' and LastName='Edwards'; */
+
+/* select * from Employee where ReportsTo = 2; */
+
+/* select * from Employee where City = 'Lethbridge'; */
+
+/* Done */
+
+
+/* Invoice */
+
+/* select Count(*) from Invoice where BillingCountry = 'USA'; */
+
+/* select Max(total) from Invoice; */
+
+/* select Min(total) from Invoice; */
+
+/* select * from Invoice where total >5; */
+
+/* select count(*) from Invoice where total < 5; */
+
+/* select Count(*) from Invoice where BillingState in ('CA','TX','AZ'); */
+
+/* select AVG(Total) from Invoice; */
+
+/* select SUM(Total) from Invoice; */
+
+/* Done */
